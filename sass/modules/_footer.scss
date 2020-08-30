@@ -1,0 +1,32 @@
+footer {
+    border-top: 1px solid $gray;
+
+    p {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 12px;
+        color: $gray;
+    }
+}
+
+@media screen and (min-width: 768px){
+    footer p {
+            width: 70%;
+            margin: 40px auto;
+            font-size: 16px;
+            line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    footer {
+        clear: both;
+
+        p {
+            width: 80%;
+            margin: 30px auto;
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}
