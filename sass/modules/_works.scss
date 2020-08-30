@@ -1,0 +1,103 @@
+#works { 
+    margin-bottom: 120px;
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .cell {
+        width: 100%;
+        margin: 60px 0;
+
+        img {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+
+    a {
+        font-size: 12px;
+        text-decoration: none;
+        color: $gray;  
+        padding: 10px;
+        border: 1px solid $gray;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #works { 
+        margin-bottom: 240px;
+    
+        h2 { font-size: 24px; }
+    
+        .cell {
+            margin: 120px 0;
+    
+            img { margin-bottom: 10px; }
+    
+            h3 {
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+    
+            p {
+                font-size: 24px;
+                line-height: 20px;
+            }
+        }
+    
+        a {
+            font-size: 24px;
+            padding: 15px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #works { 
+    
+        h2 { width: 100%; font-size: 24px; }
+    
+        .cell {
+            margin: 60px 0;
+    
+            img { margin-bottom: 10px; }
+    
+            h3 {
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        .cell1 { width: 60%; float: left;}
+        .cell2 { width: 60%; float: right;}
+        .cell3 { width: 60%; float: left;}
+        .cell4 { width: 60%; float: right;}
+
+        a {
+            float: right;
+            clear: both;
+            font-size: 16px;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    }
+}
+    

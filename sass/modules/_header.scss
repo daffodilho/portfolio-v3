@@ -1,0 +1,64 @@
+header {
+    width: 100%;
+    margin-bottom: 60px;
+
+    #gif, #intro {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 24px;
+
+        img { width: 100%;}
+
+        h3 { 
+            font-weight: 600; 
+        }
+
+        p { margin-bottom: 30px;}
+
+        a {
+            font-size: 12px;
+            text-decoration: none;
+            color: $gray;  
+            padding: 10px 30px;
+            border: 1px solid $gray;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    header {
+    
+        #gif, #intro {
+            width: 70%;
+            font-size: 32px;
+            line-height: 48px;
+    
+            img { width: 70%; margin-top: 60px;}
+    
+            a {
+                font-size: 24px;
+                padding: 15px 35px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    header {
+        margin-bottom: 240px;
+    
+        #gif, #intro {
+            width: 40%;
+            font-size: 20px;
+            line-height: 32px;
+    
+            img { width: 60%; margin-top: 0;}
+    
+            a {
+                font-size: 16px;
+                padding: 10px 30px;
+            }
+        }
+    }
+}

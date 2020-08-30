@@ -1,0 +1,32 @@
+@import 'modules/_vars';
+@import 'modules/_header';
+@import 'modules/_works';
+@import 'modules/_connect';
+@import 'modules/_footer';
+
+body {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: $white;
+    color: $black;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+    #container {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
